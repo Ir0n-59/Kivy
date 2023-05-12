@@ -80,7 +80,7 @@ class Study(Screen):
         if delta[0:7]  == "0:00:00":
            
             '0' + delta[0:7]
-            self.sound = SoundLoader.load('clock test\Breaking Bad Main Title Theme (Extended).mp3')
+            self.sound = SoundLoader.load('')
             self.sound.play()
             self.reset()   
 
